@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: 'https://api.magicthegathering.io/v1/',
+  baseURL: 'https://digimon-api.vercel.app/api/digimon',
 })
 
 const useApi = () => {
